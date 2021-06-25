@@ -1,0 +1,102 @@
+* {
+
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+body {
+    background-color: whitesmoke;
+
+}
+
+
+section {
+    background-color: white;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    padding: 10% 10%;
+    border-radius: 20px;
+    
+}
+
+p{
+    margin-bottom: 70px;
+}
+
+.startBTN {
+    padding: 5px 10px;
+    border: 1px solid palevioletred;
+    border-radius: 10px;
+    background-color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    
+}
+
+/* QnA */
+
+.progress{
+    margin-bottom: 30px;
+    width: 90%;
+    height: 10px;
+    border: 1px solid palevioletred;
+    border-radius: 0;
+    background-color: inherit;
+    
+}
+
+.progressBar{
+    background-color: palevioletred;
+    align-items: left;
+
+}
+
+
+.question{
+    /* margin-bottom: 40px; 안먹음ㅠ  */
+}
+
+.answer {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.answerList {
+    margin-bottom: 20px;
+    padding: 5px 20px;
+    border: 1px solid palevioletred;
+    border-radius: 10px;
+    background-color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    
+}
+
+@keyframes fadeIn {
+    from { opacity: 0%; }
+    to { opacity: 100%}
+}
+
+@keyframes fadeOut {
+    from { opacity: 100%; }
+    to { opacity: 0%}
+}
+
+
+
+/* Q&A  */
+
+#qna {
+    display: none;
+}
+
+
+
+/* result */
+
+#result {
+    display: none;
+}
