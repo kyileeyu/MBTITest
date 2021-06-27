@@ -2,6 +2,8 @@ const main =document.querySelector("#main");
 const qna =document.querySelector("#qna");
 const result =document.querySelector("#result");
 
+const endpoint = 12;
+const select = [];
 
 function addAnswer(Text, num){
     var A = document.querySelector('.answer');
@@ -17,10 +19,13 @@ addBTN.addEventListener("click", function(){
     }
     goNext(++num);
 })
-
+}
+function goResult(){
+     
 }
 
 function goNext(num){
+    if(num == endpoint) goResult();
     var Q = document.querySelector('.qustion');
     Q.innerHTML = qnaList[num].q;
 
@@ -29,7 +34,7 @@ function goNext(num){
     }
 
     var pgBar = document.querySelector('.progressBar');
-    pgBar.style.width = (100/12) * (num+1) +'%';
+    pgBar.style.width = (100/endpoint) * (num+1) +'%';
 
 }
 
