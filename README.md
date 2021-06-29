@@ -6,7 +6,7 @@
 <br/><br/>
 
 일단 사이트 보고 오시죠.<br/>
-<a href="travelmate-test.netlify.app">travelmate-test.netlify.app</a>
+<a href="https://travelmate-test.netlify.app/">travelmate-test.netlify.app</a>
 <br/><br/>
 
 오늘도 vscode앞에서 씨름하는 그대들...<br/>
