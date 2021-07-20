@@ -3,7 +3,7 @@ const qna =document.querySelector("#qna");
 const result =document.querySelector("#result");
 
 const endpoint = 12;
-const select= [0,0,0,0,0,0,0,0,0,0,0,0,0];
+const select= [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
 
 function calResult(){ 
     var result = select.indexOf(Math.max(...select));
@@ -70,7 +70,7 @@ function goResult(){
 }
 
 function goNext(num){
-    if(num == endpoint){
+    if(num === endpoint){
      goResult();
      return;
     }    
@@ -106,5 +106,4 @@ function checkResult(){
     qna.style.display = "none";
     result.style.display = "block";
 }
-
 

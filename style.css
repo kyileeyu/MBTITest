@@ -1,13 +1,9 @@
 * {
 
     box-sizing: border-box;
-    margin: 0 auto;
     font-family: 'Noto Sans KR', sans-serif;
 }
-body {
-    background-color: whitesmoke;
 
-}
 
 
 section {
@@ -15,14 +11,14 @@ section {
     display : flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 30px;
     padding: 10% 10%;
     border-radius: 20px;
     
 }
 
-p{
-    margin-bottom: 70px;
+button:hover{
+    background-color: palevioletred;
+    color:white;
 }
 
 .startBTN {
@@ -35,10 +31,26 @@ p{
     
 }
 
+
+
+
+
 /* QnA */
 
+#qna{
+    margin: 50px auto;
+    height: 500px;
+    background-image: url(./img/back.png);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+
 .progress{
-    margin-bottom: 30px;
+    margin: 0;
+    margin-bottom: 80px;
     width: 90%;
     height: 10px;
     border: 1px solid palevioletred;
@@ -49,16 +61,13 @@ p{
 
 .progressBar{
     background-color: palevioletred;
-    align-items: left;
+    display: block;
 
 }
 
-
-.question{
-    /* margin-bottom: 40px; 안먹음ㅠ  */
-}
 
 .answer {
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
 }
